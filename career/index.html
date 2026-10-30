@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career — TEN@ Digitals</title>
+  <meta name="description" content="Build your career at TEN@ Digitals. Send us your details and resume.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body data-page="career" data-root="../">
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="crumbs"><a href="../index.html">Home</a> / Career</p>
+      <p class="eyebrow">Career</p>
+      <h1>Grow with Ten@ Digitals.</h1>
+      <p>Creative thinkers, marketers and technologists — send us your details and resume, and we'll be in touch when there's a fit.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container contact-grid">
+
+      <div class="form-card">
+        <h2>Apply now</h2>
+        <p class="form-note">Fields marked <span class="req" style="color:var(--accent-600)">*</span> are required.</p>
+        <div id="career-status" class="form-status" role="status" aria-live="polite"></div>
+        <!-- Applications are delivered to reach@tenat.com by FormSubmit (formsubmit.co), which supports file attachments on a static site -->
+        <form id="career-form" action="https://formsubmit.co/reach@tenat.com" method="POST" enctype="multipart/form-data" novalidate>
+          <input type="hidden" name="_subject" value="New career application — TEN@ Digitals website">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="">
+          <div class="form-grid">
+            <div class="field">
+              <label for="c-name">Full name <span class="req">*</span></label>
+              <input id="c-name" name="name" type="text" autocomplete="name" required aria-describedby="ce-name">
+              <span class="error" id="ce-name"></span>
+            </div>
+            <div class="field">
+              <label for="c-email">Email <span class="req">*</span></label>
+              <input id="c-email" name="email" type="email" autocomplete="email" required aria-describedby="ce-email">
+              <span class="error" id="ce-email"></span>
+            </div>
+            <div class="field">
+              <label for="c-phone">Phone number <span class="req">*</span></label>
+              <input id="c-phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="ce-phone">
+              <span class="error" id="ce-phone"></span>
+            </div>
+            <div class="field">
+              <label for="c-role">Role you're interested in <span class="req">*</span></label>
+              <input id="c-role" name="role" type="text" placeholder="e.g. Video Editor, Ads Specialist" required aria-describedby="ce-role">
+              <span class="error" id="ce-role"></span>
+            </div>
+            <div class="field full">
+              <label for="c-link">LinkedIn or portfolio link</label>
+              <input id="c-link" name="portfolio" type="url" placeholder="https://" aria-describedby="ce-link">
+              <span class="error" id="ce-link"></span>
+            </div>
+            <div class="field full">
+              <label for="c-message">Tell us about yourself</label>
+              <textarea id="c-message" name="message" aria-describedby="ce-message"></textarea>
+              <span class="error" id="ce-message"></span>
+            </div>
+            <div class="field full">
+              <label for="c-resume">Resume <span class="req">*</span></label>
+              <input id="c-resume" class="file-input" name="attachment" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required aria-describedby="ce-resume">
+              <label class="file-drop" for="c-resume">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5M12 3v12"/></svg>
+                <span class="file-name">Choose a file — PDF, DOC or DOCX, up to 5 MB</span>
+              </label>
+              <span class="error" id="ce-resume"></span>
+            </div>
+            <!-- Honeypot for basic spam protection -->
+            <div style="position:absolute;left:-9999px" aria-hidden="true">
+              <label for="c-honey">Leave empty</label>
+              <input id="c-honey" name="_honey" type="text" tabindex="-1" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send application <span class="arrow" aria-hidden="true">→</span></button>
+            <span class="form-note">By applying you agree to our <a href="../privacy/index.html">Privacy Policy</a>.</span>
+          </div>
+        </form>
+      </div>
+
+      <aside class="info-card" aria-labelledby="why-join">
+        <h2 id="why-join">Why join us</h2>
+        <ul class="info-list">
+          <li>
+            <span class="icon-badge"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 3 6.5 7 .9-5.1 4.8 1.3 6.9L12 17.8 5.8 21l1.3-6.9L2 9.4l7-.9z"/></svg></span>
+            <div><small>Creative</small>Celebrity partnerships, brand films and content made for the scroll.</div>
+          </li>
+          <li>
+            <span class="icon-badge"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></span>
+            <div><small>Performance</small>Meta, Google and programmatic campaigns that move real numbers.</div>
+          </li>
+          <li>
+            <span class="icon-badge"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 9h6v6H9z"/></svg></span>
+            <div><small>Technology</small>AI products for assessment, training and personalised learning.</div>
+          </li>
+        </ul>
+        <p style="color:rgba(255,255,255,.75);margin:0">Prefer email? Send your resume to <a href="mailto:reach@tenat.com" style="color:#fff;font-weight:700">reach@tenat.com</a>.</p>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
